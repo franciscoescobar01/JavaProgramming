@@ -1,0 +1,50 @@
+site_name: 'Programación en Java'
+copyright: 'Copyright &copy; 2018 Francisco Escobar'
+nav:
+    - Principal: 'index.md'
+    - Conceptos Generales:
+        - Que es: conceptos/Java.md
+        - Instalación: conceptos/Instalación.md
+        - Primer programa: conceptos/primerprograma.md
+    - Estructuras de control: 
+        - Construcción de un Programa: estructuras/construccion.md
+        - Asignación y Operadores: estructuras/asignacion.md
+        - Iteración: estructuras/iteracion.md
+        - Selección: estructuras/seleccion.md
+        - Manejo de Excepciones: estructuras/excepcion.md
+        - Otros operadores: estructuras/operadores.md
+    - Programación Orientada a Objetos: 
+        - Arreglos: poo/arreglos.md
+        - Clases: poo/clases.md
+        - Privacidad: poo/privacidad.md
+        - Metodos/Funciones: poo/metodos.md
+        - Herencia: poo/herencia.md
+        - Interfaces: poo/interfaces.md
+        - Polimorfismo: poo/polimorfismo.md
+        - Persistencia: poo/persistencia.md
+    - Manejor de Archivos: 
+        - Archivos de texto: file/txt.md
+        - json: file/json.md
+        - CSV: file/csv.md
+    - Hilos:
+        - Thread: hilos/thread.md
+    - Herramientas:
+        - blueJ: herramientas/BlueJ.md
+        - NetBeans: herramientas/NetBeans.md
+        - Eclipse: herramientas/eclipse.md
+        - Intellij: herramientas/intellij.md
+        - jShell: herramientas/jshell.md
+        - Maven: herramientas/maven.md
+
+theme:
+    name: 'material'
+    favicon: assets/images/logo.png
+    logo:
+        icon: 'developer_board'
+    language: 'es'
+    palette:
+      primary: 'grey'
+      accent: 'cyan'
+
+markdown_extensions:
+  - codehilite
