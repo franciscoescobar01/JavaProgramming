@@ -22,6 +22,9 @@ nav:
         - Interfaces: poo/interfaces.md
         - Polimorfismo: poo/polimorfismo.md
         - Persistencia: poo/persistencia.md
+        - Enum: poo/unitTest.md
+        - UnitTest: poo/enum.md
+        - ContainerClass: poo/container.md
     - Manejor de Archivos: 
         - Archivos de texto: file/txt.md
         - json: file/json.md
